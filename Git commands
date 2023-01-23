@@ -19,3 +19,14 @@ git checkout -- file_name
 
 //to rename
 git mv old_name new_name
+
+//git login
+--graph
+--oneline
+--since=""
+
+//to get the difference between staging and working directory
+git diff
+git difftool
+git diff HEAD
+git diff --staged HEAD

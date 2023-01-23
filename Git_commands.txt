@@ -1,0 +1,21 @@
+//login
+git config --global user.name=""
+git config --global user.email=""
+git config --global --list
+
+//branching
+//to create new branch
+git branch branch_name
+//to switch to the branch
+git checkout branchname
+
+//to get git tracked files
+git ls-files
+
+//to back-out changes from staging area
+git reset HEAD file_name
+//to discard changes from current working directory
+git checkout -- file_name
+
+//to rename
+git mv old_name new_name
